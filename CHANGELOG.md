@@ -1,6 +1,16 @@
 ## Unreleased
 - Replace erubis with erubi
 
+## 3.0.0
+### Misc
+- Deprecate Ruby 2.5; bump min Ruby version in gemspec; bump Ruby versions in Travis test matrix
+- Fix config file parsing error: wrong number of arguments (given 4, expected 1) (#819)
+
+## 2.0.3
+### Misc
+- Add Ruby 3 to the Travis test matrix
+- add support for tmux 3.2
+
 ## 2.0.2
 ### Misc
 - add tmux 3.1c to Travis CI test matrix
